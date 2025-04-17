@@ -7,10 +7,11 @@ This README contains common commands and steps to help with setting up, running,
 ## Python Environment (Poetry)
 
 Set up Python environment.
-
+```bash
 poetry install                            # Install dependencies
 eval $(poetry env activate)              # Activate the poetry environment
 poetry self add poetry-plugin-shell      # Add shell plugin for Poetry
+```
 
 ## Database Migrations (Alembic)
 
